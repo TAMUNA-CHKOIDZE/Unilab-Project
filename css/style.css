@@ -407,6 +407,9 @@ body {
     font-weight: bold;
     color: #CBD0D3;
 }
+.footer_nav_list_item li a:hover{
+    color: #EBEDED;
+}
 
 .footer_contact_email {
     border: 2px solid #FFFFFF;
