@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-color: #F6F8F9;
 }
@@ -34,6 +35,7 @@ body {
     align-items: center;
     margin-bottom: 40px;
 }
+
 .section_title {
     font-size: 24px;
     font-weight: bold;
@@ -221,9 +223,10 @@ body {
 
 /* დასრულდა slider-ის section */
 /* დაიწყო treding section */
-.treding{
+.treding {
     margin-top: 40px;
 }
+
 .treding_item {
     width: 100%;
 }
@@ -262,3 +265,108 @@ body {
     color: #A6ADB4;
     margin-bottom: 10px;
 }
+
+/* დასრულდა treding section */
+/* დაიწყო happeningNow section  */
+.happeningNow{
+    margin-top: 40px;
+}
+.happeningNow_inner {
+    width: 100%;
+    display: flex;
+    max-height: 900px;
+    height: 100vw;
+}
+
+.happeningNow_cover {
+    width: 70%;
+    height: 100%;
+}
+
+
+.happeningNow_cover_img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider_cover_text {
+    position: absolute;
+    width: 100vw;
+    max-width: 680px;
+}
+
+.happeningNow__cover_header_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 67px;
+    margin-bottom: 232px;
+}
+
+.happeningNow__cover_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.happeningNow__cover_description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+.happeningNow__cover_date {
+    font-size: 13px;
+    color: #CBD0D3;
+    display: flex;
+    align-items: center;
+}
+.happeningNow__cover_date img {
+    margin-right: 8px;
+}
+
+.happeningNow_cover_img img {
+    object-fit: cover;
+}
+
+.happeningNow__content {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.happeningNowr__content_item {
+    width: 100%;
+    height: 33.33%;
+}
+
+.happeningNowr__content_cover {
+    width: 100%;
+}
+
+.happeningNowr__content_cover img {
+    width: 100%;
+}
+
+.happeningNowr__content_item_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+/* დასრულდა happeningNow section */
+ /* დაიწყო footer */
+ .footer{
+    width: 100%;
+    background-color: #A6ADB4;
+ }
