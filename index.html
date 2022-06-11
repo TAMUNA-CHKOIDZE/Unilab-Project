@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,130 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
+
 <body>
+    <!-- დაიწყო header -->
+    <header class="header">
+        <div class="header__logo">LOGO</div>
+        <ul class="header__menu">
+            <li><a href="" class="active">HOME</a></li>
+            <li><a href="">DISCOVERY</a></li>
+            <li><a href="">PHOTOS</a></li>
+            <li><a href="">CONTACT</a></li>
+            <img class="header__menu_img" src="../image/header-profile.svg" alt="profile picture">
+        </ul>
+    </header>
+     <!-- დასრულდა header -->
     
+     <!-- დაიწყო slider-ის section -->
+    <section class="slider">
+        <figure class="slider__cover">
+            <img src="../image/world-news.png" alt="neature">
+            <div class="slider_cover_text">
+                <div class="slider__cover_header">
+                    <h1 class="slider__cover_header_title">WORLD NEWS</h1>
+                </div>
+                <h2 class="slider__cover_title">Amazing places in America to visit.</h2>
+                <p class="slider__cover_description">For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a
+                majority of your life in.</p>
+                <a class="slider__cover_more" href="./contact.html">LEARN MORE</a>
+            </div>
+        </figure>
+        <div class="slider__content">
+            <div class="slider__content_header">
+                <h1 class="slider__content_header_title">MORE NEWS</h1>
+                <div class="slider__content_header_btn">
+                    <button class="slider__content_header_btn_btn"> < </button>
+                    <button class="slider__content_header_btn_btn active">></button>
+                </div>
+            </div>
+            <div class="slider__content_item">
+                <h2 class="slider__content_item_category">TRAVEL</h2>
+                <h1 class="slider__content_item_title">Article title</h1>
+                <p class="slider__content_item_text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <div class="slider__content_item_date">
+                    <img src="../image/time.svg" alt="">
+                    2 min ago
+                </div>
+            </div>
+            <div class="slider__content_item">
+                <h2 class="slider__content_item_category">TECHNOLOGY</h2>
+                <h1 class="slider__content_item_title">Article title</h1>
+                <p class="slider__content_item_text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <div class="slider__content_item_date">
+                    <img src="../image/time.svg" alt="">
+                    2 min ago
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- დასრულდა slider-ის section -->
+
+    <!-- დაიწყო treding section -->
+    <section class="treding">
+        <div class="container">
+            <div class="section_header">
+            <h1 class="section_title">TRENDING</h1>
+            <div class="slider__content_header_btn">
+                <button class="slider__content_header_btn_btn">
+                    < </button>
+                        <button class="slider__content_header_btn_btn active">></button>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="treding_item">
+                        <figure class="treding_item_cover">
+                            <img src="./image/tranding1.png" alt="">
+                        </figure>
+                        <div class="treding_item_text">
+                            <h1 class="treding_item_title">Dolore magna aliqua</h1>
+                            <p class="treding_item_description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                            <div class="slider__content_item_date">
+                                <img src="../image/time.svg" alt="">
+                                2 min ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                <div class="treding_item">
+                    <figure class="treding_item_cover">
+                        <img src="./image/tranding1.png" alt="">
+                    </figure>
+                    <div class="treding_item_text">
+                        <h1 class="treding_item_title">Morbi eleifend a libero</h1>
+                        <p class="treding_item_description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+                        </p>
+                        <div class="slider__content_item_date">
+                            <img src="../image/time.svg" alt="">
+                            1h ago
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="treding_item">
+                        <figure class="treding_item_cover">
+                            <img src="./image/tranding1.png" alt="">
+                        </figure>
+                        <div class="treding_item_text">
+                            <h1 class="treding_item_title">Morbi eleifend a libero</h1>
+                            <p class="treding_item_description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+                            </p>
+                            <div class="slider__content_item_date">
+                                <img src="../image/time.svg" alt="">
+                                3h ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- დასრულდა treding section -->
+
+
 </body>
+
 </html>

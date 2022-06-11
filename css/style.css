@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #F6F8F9;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.col-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.33%;
+}
+
+.section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+}
+
+/* დაიწყო header */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F8F9;
+    padding: 10px 0;
+}
+
+.header__logo {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FA6980;
+    margin-left: 30px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header__menu li a {
+    margin-right: 22px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #343638;
+    opacity: 0.5;
+}
+
+.header__menu li a.active {
+    opacity: 1;
+}
+
+.header__menu li a:hover {
+    opacity: 1;
+}
+
+.header__menu_img {
+    margin-left: 28px;
+}
+
+/* დასრულდა header */
+
+/* დაიწყო slider-ის section */
+
+.slider {
+    width: 100%;
+    display: flex;
+    max-height: 600px;
+    height: 100vw;
+}
+
+.slider__cover {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_cover_text {
+    position: absolute;
+    width: 100vw;
+    max-width: 600px;
+}
+
+.slider__cover_header {
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.slider__cover_header_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.slider__cover_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.slider__cover_description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.slider__cover_more {
+    background-color: #FA6980;
+    padding: 16px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.slider__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__content {
+    width: 40%;
+    padding: 100px;
+    background-color: #FFFFFF;
+}
+
+.slider__content_header {
+    border-bottom: 2px solid #EBEDED;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__content_header_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+}
+
+.slider__content_header_btn_btn {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: #202124;
+    opacity: 0.5;
+    margin-left: 40px;
+}
+
+.slider__content_header_btn_btn.active {
+    opacity: 1;
+}
+
+.slider__content_item {
+    margin-top: 40px;
+}
+
+.slider__content_item_category {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FA6980;
+    margin-bottom: 20px;
+}
+
+.slider__content_item_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+}
+
+.slider__content_item_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #A6ADB4;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.slider__content_item_date {
+    font-size: 13px;
+    color: #A6ADB4;
+    display: flex;
+    align-items: center;
+}
+
+.slider__content_item_date img {
+    margin-right: 6px;
+}
+
+/* დასრულდა slider-ის section */
+/* დაიწყო treding section */
+.treding{
+    margin-top: 40px;
+}
+.treding_item {
+    width: 100%;
+}
+
+.treding_item_cover {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.treding_item_cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.treding_item:hover .treding_item_cover img {
+    transform: scale(1.3);
+}
+
+.treding_item_text {
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.treding_item_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+    margin-bottom: 10px;
+}
+
+.treding_item_description {
+    font-size: 13px;
+    color: #A6ADB4;
+    margin-bottom: 10px;
+}
