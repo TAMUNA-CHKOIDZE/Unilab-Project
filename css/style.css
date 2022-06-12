@@ -294,10 +294,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .happeningNow_cover_img_img {
     width: 100%;
+    height: 100%;
 }
 
 .slider_cover_text {
@@ -431,3 +433,4 @@ body {
 .footer_icones_img {
     margin-right: 32px;
 }
+/* დასრულდა footer */
