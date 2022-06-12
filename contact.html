@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,149 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Contact</title>
 </head>
+
 <body>
-    <header>
-        
+    <!-- დაიწყო header -->
+    <header class="header">
+        <div class="header__logo">LOGO</div>
+        <ul class="header__menu">
+            <li><a href="" class="active">HOME</a></li>
+            <li><a href="">DISCOVERY</a></li>
+            <li><a href="">PHOTOS</a></li>
+            <li><a href="">CONTACT</a></li>
+            <img class="header__menu_img" src="./image/header-profile.svg" alt="profile picture">
+        </ul>
     </header>
+    <!-- დასრულდა header -->
+    <!-- დაიწყო news section  -->
+    <section class="news">
+        <div class="container">
+            <div class="news_header">
+                <div class="news_header_text">
+                    <img src="./image/home.svg" alt="home icone" class="news_header_text_img">
+                    <p class="news_header_text_content active">STORY</p>
+                    <div class="news_header_text_content_slesh">/</div>
+                    <p class="news_header_text_content">WORLD NEWS</p>
+                </div>
+                <figure class="news_header_icone">
+                    <img src="./image/filter.svg" alt="">
+                </figure>
+            </div>
+            <div class="news_slider">
+                <figure class="news_slider_cover">
+                    <img class="news_slider_cover_img" src="./image/lake.png" alt="lake in mountain">
+                    <div class="news_slider_cover_text">
+                        <h1 class="news_slider__cover_text_title">WORLD NEWS</h1>
+                        <div class="news_slider__cover_text_line"></div>
+                        <p class="news_slider__cover_text_description">Lorem ipsum dolor sit amet, in eam odio amet</p>
+                        <img class="news_slider_cover_text_img" src="./image/avatar.svg" alt="">
+                    </div>
+                </figure>
+                <div class="news_slider_content">
+                    <form class="news_slider_content_form">
+                        <div class="news_slider_content_form_item">
+                            <p class="news_slider_content_form_item_titel">Select a date</p>
+                            <input class="news_slider_content_form_item_input" type="number" placeholder="Select..."
+                                name="" id="">
+                        </div>
+                        <div class="news_slider_content_form_item">
+                            <p class="news_slider_content_form_item_titel">Enter the first keywords</p>
+                            <input class="news_slider_content_form_item_input" type="text">
+                        </div>
+                        <button class="news_slider_content_btn">SEARCH</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- დასრულდა news section  -->
+    <!-- დაიწყო profile section  -->
+    <section class="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="profile_item">
+                        <img src="./image/avatar.svg" alt="" class="profile_item_img">
+                        <h1 class="profile_item_title">Phasellus eu nulla malesuada, luctus diam.</h1>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="profile_item">
+                        <p class="profile_item_text">
+                            Dignissim rutrum ridiculus lacinia phasellus torquent ad aliquet, nisi dictum cubilia class
+                            habitasse commodo, semper
+                            potenti nec ac per egestas. Ac volutpat ullamcorper phasellus montes sollicitudin litora
+                            ridiculus
+                            mi conubia inceptos
+                            euismod odio curabitur, tortor eros porta venenatis facilisis quam blandit in ut lobortis
+                            consequat
+                            justo. Hac libero
+                            quisque tortor conubia iaculis
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="profile_item">
+                        <p class="profile_item_text">Nascetur himenaeos morbi gravida porta sapien justo aliquam pellentesque dapibus curae,
+                            cursus
+                            ultrices suspendisse cras
+                            ligula id aenean vulputate taciti, eleifend eros bibendum scelerisque lobortis venenatis
+                            nulla
+                            tristique tempus. Quisque
+                            eleifend vulputate.</p>
+                        <div class="slider__content_item_date">
+                            <img src="./image/time.svg" alt="">
+                            2 min ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- დაიწყო footer -->
+    <!-- <footer class="footer">
+        <div class="footer_nav">
+            <div class="footer_nav_list">
+                <a href="" class="footer_nav_list_logo">LOGO</a>
+                <ul class="footer_nav_list_item">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Discovery</a></li>
+                    <li><a href="">Photos</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <ul class="footer_nav_list_item">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Guidlines</a></li>
+                </ul>
+                <ul class="footer_nav_list_item">
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Advertise</a></li>
+                    <li><a href="">Integrations</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_contact">
+            <div class="footer_contact_email">
+                Email
+                <img src="./image/send.svg" alt="">
+            </div>
+            <p class="footer_contact_text">Stay in touch with us for the freshest products!</p>
+        </div>
+        <div class="footer_icones">
+            <a href="#"><img class="footer_icones_img" src="./image/instagram.svg" alt="instagram"></a>
+            <a href="#"><img class="footer_icones_img" src="./image/twitter.svg" alt=""></a>
+            <a href="#"><img class="footer_icones_img" src="./image/facebook.svg" alt=""></a>
+            <a href="#"><img class="footer_icones_img" src="./image/web.svg" alt=""></a>
+        </div>
+    </footer> -->
+    <!-- დასრულდა footer  -->
 </body>
+
 </html>
