@@ -360,7 +360,6 @@ body {
 
 .happeningNowr__content_cover {
     width: 100%;
-    /* height: 33.3%; */
 }
 
 .happeningNowr__content_cover img {
@@ -621,4 +620,112 @@ body {
     border-bottom: 2px solid #EBEDED;
     padding-bottom: 40px;
 }
+
 /* დასრულდა cover section */
+
+
+
+
+/* რესპონსივი 1024-ზე */
+@media (max-width: 1024px) {
+
+    /* დაიწყო slider-ის section */
+    .container {
+        max-width: 608px;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        max-height: 743px;
+    }
+
+    .slider__cover {
+        width: 100%;
+        height: 60%;
+    }
+
+    .slider__content {
+        width: 100%;
+        height: 40%;
+        padding: 40px 80px 80px 80px;
+    }
+
+    .slider__content_item_group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* დასრულდა slider-ის section */
+    /* დაიწყო treding section */
+    .container {
+        max-width: 608px;
+    }
+
+    .treding_item.active {
+        display: none;
+    }
+
+    .col-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 50%;
+    }
+
+    /* დასრულდა treding section */
+    /* დაიწყო happeningNow section  */
+    .happeningNow_inner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-height: 1200px;
+        height: 100vw;
+    }
+
+    .happeningNow_cover {
+        width: 100%;
+        height: 70%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .slider_cover_text {
+        max-width: 528px;
+    }
+
+    .happeningNow__cover_header_title {
+        margin-top: 40px;
+        margin-bottom: 200px;
+    }
+
+    .happeningNowr__content_item.active {
+        display: none;
+    }
+
+    .happeningNow__content {
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-right: -5px;
+        margin-left: -5px;
+
+    }
+
+    .happeningNowr__content_item {
+        width: 50%;
+        height: 100%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /* დასრულდა happeningNow section */
+}
+
+
+
+
+
+
+/* რესპონსივი 480-ზე */
+@media (max-width: 480px) {}
