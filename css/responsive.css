@@ -1,0 +1,294 @@
+/* რესპონსივი 1024-ზე */
+@media (max-width: 1024px) {
+
+    /* დაიწყო slider-ის section */
+    .container {
+        max-width: 608px;
+        width: 100%;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        /* max-height: 743px; */
+    }
+
+    .slider__cover {
+        width: 100%;
+        height: 60%;
+    }
+
+    .slider_cover_text {
+        padding: 0 24px;
+    }
+
+    .slider__content {
+        width: 100%;
+        height: 40%;
+        padding: 40px 80px 80px 80px;
+    }
+
+    .slider__content_item_group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* დასრულდა slider-ის section */
+    /* დაიწყო treding section */
+    .container {
+        max-width: 608px;
+    }
+
+    .treding_item.active {
+        display: none;
+    }
+
+    .col-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    /* დასრულდა treding section */
+    /* დაიწყო happeningNow section  */
+    .happeningNow_inner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .happeningNow_cover {
+        width: 100%;
+    }
+
+    .happeningNow__cover_header_title {
+        margin-top: 40px;
+        margin-bottom: 200px;
+    }
+
+    .happeningNowr__content_item.active {
+        display: none;
+    }
+
+    .happeningNow__content {
+        width: 100%;
+        flex-direction: row;
+        /* margin-right: -15px;
+        margin-left: -15px; */
+
+    }
+
+    .happeningNowr__content_item {
+        width: 50%;
+
+    }
+
+    /* დასრულდა happeningNow section */
+
+    /* დაიწყო footer */
+    .footer_content {
+        flex-direction: column;
+    }
+
+    .footer_content_menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer_content_contact {
+        width: 100%;
+        margin-top: 50px;
+        align-items: flex-end;
+    }
+
+    /* დასრულდა footer */
+    .news_slider {
+        flex-direction: column;
+    }
+
+    .news_slider_cover {
+        width: 100%;
+    }
+
+    .news_slider_content {
+        width: 100%;
+    }
+
+    .profile_item {
+        margin-bottom: 40px;
+    }
+
+    .cover_text_desc {
+        display: flex;
+        font-size: 16px;
+        color: #202124;
+    }
+
+    .navigation {
+        margin-top: 38px;
+        display: flex;
+        font-size: 11px;
+        font-weight: bold;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navigation li {
+        margin: 0 12px;
+    }
+
+    .navigation li a {
+        padding-bottom: 11px;
+        border-bottom: 2px solid transparent;
+        color: #A6ADB4;
+    }
+
+    .navigation li a.active,
+    .navigation li a:hover {
+        color: #202124;
+        border-bottom: 2px solid #FA6980;
+    }
+
+    .navigation li:last-child a {
+        border-bottom: 2px solid transparent;
+    }
+}
+
+
+
+/* დაიწყო რესპონსივი 768-ზე */
+@media (max-width: 768px) {
+    .d_m_none {
+        display: none;
+    }
+
+        .slider__content {
+            padding: 40px 0;
+        }
+
+    .slider__content_item_group {
+        flex-direction: column;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .happeningNowr__content_item {
+        width: 100%;
+    }
+
+    .footer_content_menu_list {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer_content_menu_list_item {
+        margin-left: 0;
+    }
+
+    .footer_content_contact_icones_img {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+
+    .header_menu_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        margin-left: 15px;
+    }
+
+    .header__menu li {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        z-index: 5;
+    }
+
+    .menu_list {
+        margin: 40px 70px;
+    }
+
+    .menu_list_item {
+        margin-bottom: 37px;
+    }
+
+    .menu_list_item a {
+        font-size: 11px;
+        font-weight: bold;
+        color: #343638;
+        opacity: .5;
+    }
+
+    .menu_list_item a:hover {
+        opacity: 1;
+    }
+
+    .menu_list_item a.active {
+        opacity: 1;
+    }
+
+    .menu_list_img {
+        margin-right: 30px;
+    }
+
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_header {
+        display: flex;
+        justify-content: space-between;
+        padding: 38px 40px;
+    }
+
+    .menu_close {
+        background-color: rgb(171, 31, 31);
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+    }
+
+    .news_slider_content {
+        padding: 30px 15px;
+    }
+
+    .news_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .news>.container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .news_header_text {
+        display: none;
+    }
+
+    .news_header_text_arrow {
+        display: flex;
+    }
+}
+
+
+/* დასრულდა რესპონსივი 768-ზე */
