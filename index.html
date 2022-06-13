@@ -13,6 +13,9 @@
 <body>
     <!-- დაიწყო header -->
     <header class="header">
+        <button class="header_menu_btn">
+            <img src="./image/menu.svg" alt="">
+        </button>
         <div class="header__logo">LOGO</div>
         <ul class="header__menu">
             <li><a href="" class="active">HOME</a></li>
@@ -29,14 +32,17 @@
         <figure class="slider__cover">
             <img src="./image/world-news.png" alt="neature">
             <div class="slider_cover_text">
-                <div class="slider__cover_header">
-                    <h1 class="slider__cover_header_title">WORLD NEWS</h1>
+                <div class="container">
+                    <div class="slider__cover_header">
+                        <h1 class="slider__cover_header_title">WORLD NEWS</h1>
+                    </div>
+                    <h2 class="slider__cover_title">Amazing places in America to visit.</h2>
+                    <p class="slider__cover_description">For some reason — this country, this city, this neighborhood,
+                        this
+                        particular street —  is the place you are living a
+                        majority of your life in.</p>
+                    <a class="slider__cover_more" href="./contact.html">LEARN MORE</a>
                 </div>
-                <h2 class="slider__cover_title">Amazing places in America to visit.</h2>
-                <p class="slider__cover_description">For some reason — this country, this city, this neighborhood, this
-                    particular street —  is the place you are living a
-                    majority of your life in.</p>
-                <a class="slider__cover_more" href="./contact.html">LEARN MORE</a>
             </div>
         </figure>
         <div class="slider__content">
@@ -283,6 +289,47 @@
         </div>
     </footer>
     <!-- დასრულდა footer  -->
+
+    <section class="menu">
+        <div class="menu_header">
+            <div class="header__logo">LOGO</div>
+            <button class="menu_close">x</button>
+        </div>
+            <ul class="menu_list">
+                <li class="menu_list_item">
+                    <a href="" class="active">
+                        <img src="./image/home.svg" alt="" class="menu_list_img">
+                        HOME
+                    </a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="">
+                        <img src="./image/discover.svg" alt="" class="menu_list_img">
+                        DISCOVERY
+                    </a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="">
+                        <img src="./image/photos.svg" alt="" class="menu_list_img">
+                        PHOTOS
+                    </a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="">
+                        <img src="./image/mail.svg" alt="" class="menu_list_img">
+                        CONTACT
+                    </a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="">
+                        <img src="./image/menu-profile.svg" alt="" class="menu_list_img">
+                        PROFILE
+                    </a>
+                </li>
+            </ul>
+    </section>
+
+    <script src="./my.js"></script>
 </body>
 
 </html>
