@@ -93,7 +93,7 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <div class="treding_item">
+                    <div class="treding_item d_m_none">
                         <figure class="treding_item_cover">
                             <img src="./image/tranding1.png" alt="">
                         </figure>
@@ -194,34 +194,36 @@
                     </figure>
                 </div>
                 <div class="happeningNow__content">
-                    <div class="happeningNowr__content_item">
-                        <figure class="happeningNowr__content_cover">
-                            <img src="./image/elephant.png" alt="elephant">
-                        </figure>
-                        <h1 class="happeningNowr__content_item_title">Small title</h1>
-                        <div class="slider__content_item_date">
-                            <img src="./image/time.svg" alt="clock">
-                            3h ago by Worldnews
+                    <div class="row">
+                        <div class="happeningNowr__content_item">
+                            <figure class="happeningNowr__content_cover">
+                                <img src="./image/elepant-test.png" alt="elephant">
+                            </figure>
+                            <h1 class="happeningNowr__content_item_title">Small title</h1>
+                            <div class="slider__content_item_date">
+                                <img src="./image/time.svg" alt="clock">
+                                3h ago by Worldnews
+                            </div>
                         </div>
-                    </div>
-                    <div class="happeningNowr__content_item">
-                        <figure class="happeningNowr__content_cover">
-                            <img src="./image/parrot.png" alt="parrot">
-                        </figure>
-                        <h1 class="happeningNowr__content_item_title">Small title</h1>
-                        <div class="slider__content_item_date">
-                            <img src="./image/time.svg" alt="clock">
-                            4h ago by Days
+                        <div class="happeningNowr__content_item">
+                            <figure class="happeningNowr__content_cover">
+                                <img src="./image/parrot.png" alt="parrot">
+                            </figure>
+                            <h1 class="happeningNowr__content_item_title">Small title</h1>
+                            <div class="slider__content_item_date">
+                                <img src="./image/time.svg" alt="clock">
+                                4h ago by Days
+                            </div>
                         </div>
-                    </div>
-                    <div class="happeningNowr__content_item active">
-                        <figure class="happeningNowr__content_cover">
-                            <img src="./image/way.png" alt="way">
-                        </figure>
-                        <h1 class="happeningNowr__content_item_title">Small title</h1>
-                        <div class="slider__content_item_date">
-                            <img src="./image/time.svg" alt="clock">
-                            3h ago by Monica
+                        <div class="happeningNowr__content_item active">
+                            <figure class="happeningNowr__content_cover">
+                                <img src="./image/way.png" alt="way">
+                            </figure>
+                            <h1 class="happeningNowr__content_item_title">Small title</h1>
+                            <div class="slider__content_item_date">
+                                <img src="./image/time.svg" alt="clock">
+                                3h ago by Monica
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,41 +232,54 @@
     <!-- დასრულდა happeningNow section -->
     <!-- დაიწყო footer -->
     <footer class="footer">
-        <div class="footer_nav">
-            <div class="footer_nav_list">
-                <a href="" class="footer_nav_list_logo">LOGO</a>
-                <ul class="footer_nav_list_item">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Discovery</a></li>
-                    <li><a href="">Photos</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <ul class="footer_nav_list_item">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Terms</a></li>
-                    <li><a href="">Guidlines</a></li>
-                </ul>
-                <ul class="footer_nav_list_item">
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Advertise</a></li>
-                    <li><a href="">Integrations</a></li>
-                    <li><a href="">Careers</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer_content">
+                <div class="footer_content_menu">
+                    <a href="" class="footer_content_menu_logo d_m_none">LOGO</a>
+                    <div class="footer_content_menu_list">
+                        <ul class="footer_content_menu_list_item">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Discovery</a></li>
+                            <li><a href="">Photos</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                        <ul class="footer_content_menu_list_item">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Help</a></li>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">Guidlines</a></li>
+                        </ul>
+                        <ul class="footer_content_menu_list_item d_m_none">
+                            <li><a href="">Testimonials</a></li>
+                            <li><a href="">Advertise</a></li>
+                            <li><a href="">Integrations</a></li>
+                            <li><a href="">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_content_contact">
+                    <div class="footer_content_contact_email d_m_none">
+                        <form class="footer_content_contact_email_form">
+                            <label class="footer_content_contact_email_form_label">
+                                <input type="email" placeholder="email"
+                                    class="footer_content_contact_email_form_label_input">
+                                <button class="footer_content_contact_email_btn"><img src="./image/send.svg"
+                                        alt="send icone"></button>
+                            </label>
+                        </form>
+                        <p class="footer_content_contact_email_text">Stay in touch with us for the freshest
+                            products!</p>
+                    </div>
+                    <div class="footer_content_contact_icones">
+                        <a href="#"><img class="footer_content_contact_icones_img" src="./image/instagram.svg"
+                                alt="instagram"></a>
+                        <a href="#"><img class="footer_content_contact_icones_img" src="./image/twitter.svg" alt=""></a>
+                        <a href="#"><img class="footer_content_contact_icones_img" src="./image/facebook.svg"
+                                alt=""></a>
+                        <a href="#"><img class="footer_content_contact_icones_img" src="./image/web.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer_contact">
-            <div class="footer_contact_email">
-                Email
-                <img src="./image/send.svg" alt="">
-            </div>
-            <p class="footer_contact_text">Stay in touch with us for the freshest products!</p>
-        </div>
-        <div class="footer_icones">
-            <a href="#"><img class="footer_icones_img" src="./image/instagram.svg" alt="instagram"></a>
-            <a href="#"><img class="footer_icones_img" src="./image/twitter.svg" alt=""></a>
-            <a href="#"><img class="footer_icones_img" src="./image/facebook.svg" alt=""></a>
-            <a href="#"><img class="footer_icones_img" src="./image/web.svg" alt=""></a>
         </div>
     </footer>
     <!-- დასრულდა footer  -->
