@@ -59,9 +59,11 @@ body {
 .header_menu_btn {
     display: none;
 }
-.news_header_text_arrow{
+
+.news_header_text_arrow {
     display: none;
 }
+
 .header__logo {
     font-size: 13px;
     font-weight: bold;
@@ -120,6 +122,10 @@ body {
 .slider__cover_header {
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 40px;
+}
+
+.slider_cover_text {
+    position: absolute;
 }
 
 .slider__cover_header_title {
@@ -308,9 +314,6 @@ body {
     height: 100%;
 }
 
-.slider_cover_text {
-    position: absolute;
-}
 
 .happeningNow__cover_header_title {
     font-size: 16px;
@@ -664,11 +667,16 @@ body {
     border-bottom: 2px solid #EBEDED;
     padding-bottom: 40px;
 }
-.cover_text_desc{
+
+.cover_text_desc {
     display: none;
 }
-.navigation{
+
+.navigation {
     display: none;
 }
 
 /* დასრულდა cover section */
+.menu {
+    display: none;
+}
