@@ -5,7 +5,7 @@ let footer = document.querySelector('.footer');
 let backBtn = document.querySelector('.news_header_text_arrow');
 
 backBtn && backBtn.addEventListener('click', function () {
-    window.location.href = "../index.html"
+    window.location.href = "./index.html"
 })
 
 burgerMenu && burgerMenu.addEventListener('click', function () {
