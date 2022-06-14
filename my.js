@@ -19,3 +19,27 @@ closeMenu && closeMenu.addEventListener('click', function () {
 })
 
 
+
+
+let newsList = document.querySelector('.news_list');
+
+newsList && fetch('https://jsonplaceholder.typicode.com/posts').then(response => response.json()).then(response => dataList(response) );
+
+const dataList = (data) =>{
+    data.map(item=>{
+        let newsItem = document.createElement("div");
+        let itemTitle = document.createElement("h1");
+        let itemDesc = document.createElement("p");
+        newsList.appendChild(newsItem);
+        newsItem.appendChild(itemTitle);
+        newsItem.appendChild(itemDesc);
+
+        itemTitle.innerText = item.title;
+        itemDesc.innerText = item.body;
+
+        newsItem.classList.add('news_item');
+        itemTitle.classList.add('news_title');
+        itemDesc.classList.add('news_desc');
+
+    })
+}
