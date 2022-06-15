@@ -131,7 +131,7 @@
         margin-top: 38px;
         display: flex;
         font-size: 11px;
-        font-weight: bold;
+        font-family: 'Helvetica-bold';
         width: 100%;
         justify-content: center;
     }
@@ -227,7 +227,7 @@
 
     .menu_list_item a {
         font-size: 11px;
-        font-weight: bold;
+        font-family: 'Helvetica-bold';
         color: #343638;
         opacity: .5;
     }

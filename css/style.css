@@ -42,7 +42,7 @@ body {
 
 .section_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
 }
 
@@ -64,11 +64,11 @@ body {
     display: none;
 }
 
-.header__logo {
+.header__logo a {
     font-size: 13px;
-    font-weight: bold;
     color: #FA6980;
     margin-left: 30px;
+    font-family: 'Helvetica-bold';
 }
 
 .header__menu {
@@ -81,7 +81,7 @@ body {
 .header__menu li a {
     margin-right: 22px;
     font-size: 11px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #343638;
     opacity: 0.5;
 }
@@ -105,13 +105,10 @@ body {
 .slider {
     width: 100%;
     display: flex;
-    /* max-height: 600px; */
-    /* height: 100vw; */
 }
 
 .slider__cover {
     width: 60%;
-    /* height: 100%; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -130,13 +127,13 @@ body {
 
 .slider__cover_header_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
 }
 
 .slider__cover_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -144,6 +141,7 @@ body {
 
 .slider__cover_description {
     font-size: 16px;
+    font-family: 'Helvetica-Oblique';
     color: #FFFFFF;
     margin-bottom: 30px;
 }
@@ -155,7 +153,7 @@ body {
     border-radius: 10px;
     color: #FFFFFF;
     font-size: 11px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
 }
 
 .slider__cover img {
@@ -179,7 +177,7 @@ body {
 
 .slider__content_header_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
 }
 
@@ -187,6 +185,7 @@ body {
     border: none;
     background-color: transparent;
     font-size: 15px;
+    font-family: 'Helvetica-Oblique';
     color: #202124;
     opacity: 0.5;
     margin-left: 40px;
@@ -202,20 +201,20 @@ body {
 
 .slider__content_item_category {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FA6980;
     margin-bottom: 20px;
 }
 
 .slider__content_item_title {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
 }
 
 .slider__content_item_text {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #A6ADB4;
     margin-top: 10px;
     margin-bottom: 12px;
@@ -223,6 +222,7 @@ body {
 
 .slider__content_item_date {
     font-size: 13px;
+    font-family: 'Helvetica-Oblique';
     color: #A6ADB4;
     display: flex;
     align-items: center;
@@ -266,13 +266,14 @@ body {
 
 .treding_item_title {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
     margin-bottom: 10px;
 }
 
 .treding_item_description {
     font-size: 13px;
+    font-family: 'Helvetica-Oblique';
     color: #A6ADB4;
     margin-bottom: 10px;
 }
@@ -317,7 +318,7 @@ body {
 
 .happeningNow__cover_header_title {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
     margin-top: 67px;
     margin-bottom: 232px;
@@ -325,7 +326,7 @@ body {
 
 .happeningNow__cover_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
     margin-bottom: 10px;
 
@@ -333,6 +334,7 @@ body {
 
 .happeningNow__cover_description {
     font-size: 16px;
+    font-family: 'Helvetica-Oblique';
     color: #FFFFFF;
     margin-bottom: 10px;
     margin-bottom: 10px;
@@ -340,6 +342,7 @@ body {
 
 .happeningNow__cover_date {
     font-size: 13px;
+    font-family: 'Helvetica-Oblique';
     color: #CBD0D3;
     display: flex;
     align-items: center;
@@ -381,7 +384,7 @@ body {
 
 .happeningNowr__content_item_title {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
     margin-top: 20px;
     margin-bottom: 11px;
@@ -415,7 +418,7 @@ body {
 
 .footer_content_menu_logo {
     font-size: 13px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
 }
 
@@ -429,7 +432,7 @@ body {
 
 .footer_content_menu_list_item li a {
     font-size: 13px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #CBD0D3;
 }
 
@@ -457,6 +460,7 @@ body {
     border-radius: 6px;
     border: 2px solid #CBD0D3;
     font-size: 13px;
+    font-family: 'Helvetica-Oblique';
     color: #CBD0D3;
     background-color: transparent;
     outline: none;
@@ -476,6 +480,7 @@ body {
 
 .footer_content_contact_email_text {
     font-size: 11px;
+    font-family: 'Helvetica-Oblique';
     color: #CBD0D3;
     margin-top: 16px;
 }
@@ -507,7 +512,7 @@ body {
     margin-right: 19px;
     margin-left: 19px;
     font-size: 11px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #A6ADB4;
 }
 
@@ -518,7 +523,7 @@ body {
 .news_header_text_content_slesh {
     color: #202124;
     font-size: 11px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
 }
 
 .news_slider {
@@ -553,7 +558,7 @@ body {
 
 .news_slider__cover_text_title {
     font-size: 32px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
 }
 
@@ -567,13 +572,13 @@ body {
 
 .news_slider__cover_text_title {
     font-size: 32px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
 }
 
 .news_slider__cover_text_description {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #FFFFFF;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -596,7 +601,7 @@ body {
 
 .news_slider_content_form_item_titel {
     font-size: 13px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
     margin-bottom: 10px;
 }
@@ -615,7 +620,7 @@ body {
     border: none;
     color: #FFFFFF;
     font-size: 11px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     padding: 16px 30px;
 }
 
@@ -632,13 +637,14 @@ body {
 
 .profile_item_title {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Helvetica-bold';
     color: #202124;
     margin-top: 20px;
 }
 
 .profile_item_text {
     font-size: 14px;
+    font-family: 'Helvetica-Oblique';
     color: #A6ADB4;
     line-height: 26px;
     margin-bottom: 22px;
@@ -661,6 +667,7 @@ body {
 
 .cover_text {
     font-size: 14px;
+    font-family: 'Helvetica-Oblique';
     color: #A6ADB4;
     line-height: 26px;
     margin-top: 40px;
@@ -682,20 +689,23 @@ body {
 }
 
 /* დაიწყო news section */
-.news_item{
+.news_item {
     width: 100%;
     margin-bottom: 20px;
     border-bottom: 2px solid #EBEDED;
     background-color: #FFFFFF;
     padding: 30px;
 }
-.news_title{
+
+.news_title {
     margin-bottom: 15px;
     font-size: 18px;
-    font-weight: bold;
+        font-family: 'Helvetica-bold';
     color: #202124;
 }
-.news_desc{
+
+.news_desc {
     font-size: 14px;
+    font-family: 'Helvetica-Oblique';
     color: #343638;
 }
